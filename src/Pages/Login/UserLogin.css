@@ -1,0 +1,74 @@
+.logincontainer{
+    background: linear-gradient(to left, #642b73, #c6426e);
+    height: 100vh;
+    padding:5px;
+   
+}
+
+.login-box{
+
+    position: absolute;
+    top:50%;
+    left:50%;
+    
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    transform: translate(-50%,-50%);
+   
+
+
+}
+
+
+.login-box h2{
+    padding: 0px;
+    text-align: center;
+    margin: 0 0 30px;
+    color: #fff;
+}
+.inputdiv label{
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+   
+    
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.signqus{
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: rgba(152, 189, 15, 0.692);
+    font-weight: bold;
+  }
+form{
+    text-align: center;
+}
+button {
+   
+    margin-top: 10px;
+   
+    
+    background-color:black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    animation: rotatation 0.7s ease-in-out 3s; /* Corrected animation property */
+}
+
+@keyframes rotatation {
+    from {
+        transform: rotate(0deg); /* Use rotate for rotation */
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

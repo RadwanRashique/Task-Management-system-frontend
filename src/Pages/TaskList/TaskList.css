@@ -1,0 +1,64 @@
+.todopannel{
+    display: flex;
+    justify-content: center;
+  width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, #c33764, #1d2671);
+    
+}
+.todoheadding{
+    position: absolute;
+    left:50%;
+    transform:translate(-50%);
+
+    color:white;
+}
+.taskboard{
+text-align: center;
+    width: 50%;
+    height: 50%;
+    padding-top: 70px;
+    border-radius: 10px;
+    margin-top: 70px;
+    overflow: scroll;
+    background-color:white;
+
+}
+.addedtask {
+    width: 80%;
+    color: aliceblue;
+    border-radius: 10px;
+    background: linear-gradient(to right, #7474bf, #348ac7);
+    margin: 10px auto;/* Horizontally center the div */
+    white-space: nowrap; /* Prevent wrapping */
+    overflow: hidden; /* Hide overflow content */
+    text-overflow: ellipsis; /* Display ellipsis (...) for overflow content */
+  }
+  
+  .addedtask h2 {
+    color: rgb(6, 5, 5);
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0; /* Remove default margin */
+  }
+  .majortask {
+    color: white;
+    width: 80%;
+    border-radius: 5px;
+    background-color: rgb(129, 148, 212);
+    margin: 10px auto; /* Horizontally center the div and add margin-bottom */
+    white-space: nowrap; /* Prevent wrapping */
+    overflow: hidden; /* Hide overflow content */
+    text-overflow: ellipsis; /* Display ellipsis (...) for overflow content */
+  }
+  
+  .majortask h2 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    
+  }
+  .empty-task{
+    font-weight: bold;
+    font-size: large;
+  }

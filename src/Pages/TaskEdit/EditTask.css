@@ -1,0 +1,70 @@
+.Edittaskbackbtn{
+    margin-left: 10px;
+    margin-top: 15px;
+    border: none;
+    width: 10%;
+
+    color: white;
+    background-color: rgba(28, 28, 169, 0.64);
+}
+.Editformcontent{
+    color: white;
+    width: 50%;
+    height: 35%;
+    border-radius: 30px;
+    background-color: rebeccapurple;
+text-align: center;
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50% );
+}
+.Editform{
+ text-align: center;
+ 
+ 
+}
+.editinput{
+ width: 400px;
+ background-color: white;
+ border: none;
+ height: 25px;
+ border-radius: 3px;
+}
+.Editbtn{
+    border: none;
+    width: 40%;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgba(6, 6, 6, 0.995);
+
+}
+
+@media screen and (max-width:540px){
+  .Editformcontent{
+    width: 70%;
+    height: 25%;
+    
+    color: white;
+    background-color: rebeccapurple;
+
+  } 
+  .Editformcontent h1{
+    font-weight: 400;
+   
+ 
+  }
+.Edittaskbackbtn{
+    width: 20%;
+}
+.editinput{
+    width: 180px;
+    height: 22px;
+}
+}
+@media screen and (max-width:300px){
+    .Editformcontent{
+      height: 40%;
+    }
+}

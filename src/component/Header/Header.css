@@ -1,0 +1,72 @@
+.container {
+    display: grid;
+    grid-template-columns: 25% 20% 15% repeat(2, 20%);
+    gap: 1rem; /* Adjust gap as needed */
+    padding: 20px;
+    margin: 0px;
+    box-sizing: content-box;
+    overflow: hidden; /* Prevent overflow */
+    background: linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
+  }
+  .container h1{
+    background: linear-gradient(to top, #f7971e, #ffd200);;
+    margin:0px;
+    color:white;
+    border-radius: 20px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+  }
+.container h3{
+
+margin-top: 15px;
+padding-left: 25px;
+}
+.addTaskbutton{
+  background: linear-gradient(to left, #c94b4b, #4b134f);
+    color:white;
+    border-radius: 12px;
+    border: none;
+    margin-top: 10px;
+    width: 70%;
+    height:60%;
+    font-weight:900 ;
+    
+}
+
+.Logout{
+   background-color: red;
+   color: white; 
+   border-radius: 12px;
+   border: none;
+   margin-top: 10px;
+   
+   width: 70%;
+   height:60%;
+   
+   font-weight:900 ;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+      grid-template-columns: 1fr; 
+     
+    }
+    .Logout{
+        height:70%;
+    }
+    .addTaskbutton{
+        height:70%;
+    }
+
+    .container div:nth-child(3) {
+        display: flex;
+        align-items: center;
+      }
+    
+      .container div:nth-child(4),
+      .container div:nth-child(5) {
+        width: auto; /* Allow buttons to adjust their width */
+        margin-left: 10px; /* Add margin between buttons */
+      }
+}
